@@ -4,6 +4,7 @@ export EDITOR=vim
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
+alias ll='ls -l'
 export PATH=$PATH:/usr/local/share/npm/bin/:/usr/bin/node
 
 if [ -f /etc/bash_completion ]; then
@@ -20,3 +21,6 @@ export GIT_PS1_DESCRIBE_STYLE=branch
 export GIT_PS1_SHOWCOLORHINTS=1
 export PROMPT_COMMAND='__git_ps1 "\[\e[1;32m\]\u@\h:\[\e[1;33m\]\w\[\e[1;39m\]" "\[\e[0;39m\]$ "'
 
+
+export NVM_DIR="/home/oguyot/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
