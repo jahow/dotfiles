@@ -25,3 +25,5 @@ export PROMPT_COMMAND='__git_ps1 "\[\e[1;32m\]\u@\h:\[\e[1;33m\]\w\[\e[1;39m\]" 
 export NVM_DIR="/home/oguyot/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# odoo pass
+. ~/odoo_utils/.pass
